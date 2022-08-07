@@ -1,0 +1,3 @@
+[submodule "docs/mugle-rfcs"]
+	path = docs/mugle-rfcs
+	url = https://github.com/mugleproject/mugle-rfcs.git

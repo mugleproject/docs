@@ -1,0 +1,142 @@
+# Project information
+site_name: Mugle Documentation
+site_url: https://docs.mugle.org
+site_author: Mugle Developers
+site_description: 'Mugle Documentation'
+
+# Main site information
+main_site_url: https://mugle.org
+main_site_name: Mugle
+
+# Repository
+repo_name: mimblewimble/mugle
+repo_url: https://github.com/mugleproject/mugle
+edit_uri: https://github.com/mugleproject/docs/blob/master/docs
+
+# Copyright
+# copyright: Copyright &copy; 2016 - 2021 Mugle Developers
+
+theme:
+  palette:
+    scheme: slate
+  name: material
+  custom_dir: overrides
+  logo: assets/images/mugle-logo.svg
+  favicon: assets/images/mugle-logo.svg
+  language: en
+  features:
+    - navigation.tabs
+
+# Plugins
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mugleproject
+    - icon: fontawesome/brands/keybase
+      link: https://keybase.io/team/muglecoin
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - meta
+
+
+
+nav:
+
+- Getting Started:
+  - ./Mugle: index.md
+  - Quickstart:
+    - Install: getting-started/quickstart/install.md
+    - Initialize: getting-started/quickstart/initialize.md
+    - Receive: getting-started/quickstart/receive.md
+    - Send: getting-started/quickstart/send.md
+  - CLI Handbook: getting-started/wallet-handbook.md
+  - Wallets: getting-started/wallets.md
+  - Build: getting-started/build.md
+
+- About Mugle:
+  - Story: about-mugle/story.md
+  - Privacy: about-mugle/privacy.md
+  - Scalability: about-mugle/scalability.md
+  - Transactions: about-mugle/transactions.md
+  - Proof of Work: about-mugle/proof-of-work.md
+  - Emission: about-mugle/emission.md
+
+- Wiki:
+  - Table of Contents: wiki/table-of-contents.md
+  - Introduction:
+    - Mugle for Bitcoiners: wiki/introduction/mugle-for-bitcoiners.md
+    - Mimblewimble:
+      - Elliptic Curves: wiki/introduction/mimblewimble/ecc.md
+      - Commitments: wiki/introduction/mimblewimble/commitments.md
+      - Mimblewimble: wiki/introduction/mimblewimble/mimblewimble.md
+  - Transactions:
+      - Slates: wiki/transactions/slates.md
+      - Slatepack: wiki/transactions/slatepack.md
+      - Payment Proofs: wiki/transactions/payment-proofs.md
+      - Contracts: wiki/transactions/contracts.md
+  - Blocks:
+      - Header: wiki/blocks/block-header.md
+      - Body: wiki/blocks/block-body.md
+      - Fees & Weight: wiki/blocks/fees-and-weight.md
+  - Chain State:
+      - Merkle Mountain Ranges: wiki/chain-state/merkle-mountain-range.md
+      - State & Pruning: wiki/chain-state/state-and-pruning.md
+      - Chain Sync: wiki/chain-state/chain-sync.md
+  - Miscellaneous:
+      - Cuckoo Cycle: wiki/miscellaneous/cuckoo-cycle.md
+      - Dandelion: wiki/miscellaneous/dandelion.md
+      - Switch Commitments: wiki/miscellaneous/switch-commitments.md
+      - Coinbase Maturity Rule: wiki/miscellaneous/coinbase-maturity-rule.md
+      - NRD Kernels: wiki/miscellaneous/nrd-kernels.md
+  - API:
+      - Node API: wiki/api/node-api.md
+      - Wallet API: wiki/api/wallet-api.md
+      - Stratum RPC: wiki/api/stratum-rpc.md
+  - Security Process:
+      - Mugle's Security Process: wiki/security-process/mugle-security-process.md
+      - Security Team: wiki/security-process/security-team.md
+      - Code Audits: wiki/security-process/code-audits.md
+  - Services:
+      - List of Services: wiki/services/list-of-services.md
+      - Slatepack Integration Guide: wiki/services/slatepack-integration.md
+  - Resources: wiki/resources.md
+
+- RFCs:
+  - 0019 deprecate-http-tx: mugle-rfcs/text/0019-deprecate-http-tx.md
+  - 0018 fix-daa: mugle-rfcs/text/0018-fix-daa.md
+  - 0017 fix-fees: mugle-rfcs/text/0017-fix-fees.md
+  - 0016 simplify-governance: mugle-rfcs/text/0016-simplify-governance.md
+  - 0015 slatepack: mugle-rfcs/text/0015-slatepack.md
+  - 0014 general-fund-guidelines: mugle-rfcs/text/0014-general-fund-guidelines.md
+  - 0013 nrd-kernels: mugle-rfcs/text/0013-nrd-kernels.md
+  - 0012 compact-slates: mugle-rfcs/text/0012-compact-slates.md
+  - 0011 security-team: mugle-rfcs/text/0011-security-team.md
+  - 0010 online-transacting-via-tor: mugle-rfcs/text/0010-online-transacting-via-tor.md
+  - 0009 enable-faster-sync: mugle-rfcs/text/0009-enable-faster-sync.md
+  - 0008 wallet-state-management: mugle-rfcs/text/0008-wallet-state-management.md
+  - 0007 node-api-v2: mugle-rfcs/text/0007-node-api-v2.md
+  - 0006 payment-proofs: mugle-rfcs/text/0006-payment-proofs.md
+  - 0005 variable-size-kernels: mugle-rfcs/text/0005-variable-size-kernels.md
+  - 0004 full-wallet-lifecycle: mugle-rfcs/text/0004-full-wallet-lifecycle.md
+  - 0003 security-process: mugle-rfcs/text/0003-security-process.md
+  - 0002 mugle-governance: mugle-rfcs/text/0002-mugle-governance.md
+  - 0001 rfc-process: mugle-rfcs/text/0001-rfc-process.md

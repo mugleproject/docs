@@ -1,0 +1,27 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "https://tradeogre.com/markets"
+    },
+    {
+      "pattern": "https://global.bittrex.com/"
+    },
+    {
+      "pattern": "https://www.hotbit.io/"
+    },
+    {
+      "pattern": "https://github.com/mugleproject/mugle-rfcs/pull/0000"
+    },
+    {
+      "pattern": "https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [
+    200,
+    206
+  ]
+}

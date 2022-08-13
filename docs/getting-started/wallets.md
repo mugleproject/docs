@@ -67,9 +67,9 @@ GUI wallet and node written in C++ &emsp;~Windows,~ ~Linux,~ ~macOS~
 
 ---
 
-[![Niffler](images/niffler.png){ align=left width=60 }](https://github.com/muglefans/Niffler){:target="_blank"}
+[![Thestral](images/thestral.png){ align=left width=60 }](https://github.com/muglefans/Thestral){:target="_blank"}
 
-## &emsp;Niffler
+## &emsp;Thestral
 
 </br>
 GUI wallet and node using the Rust implementation as back-end &emsp;~Windows,~ ~Linux,~ ~macOS~
@@ -77,7 +77,7 @@ GUI wallet and node using the Rust implementation as back-end &emsp;~Windows,~ ~
 ??? abstract "How to: send/receive"
     === "Download"
 
-        Download at [github.com/muglefans/niffler/releases](https://github.com/muglefans/niffler/releases){:target="_blank"}
+        Download at [github.com/muglefans/thestral/releases](https://github.com/muglefans/thestral/releases){:target="_blank"}
 
         (by clicking on one of the listed download links)
 
@@ -85,7 +85,7 @@ GUI wallet and node using the Rust implementation as back-end &emsp;~Windows,~ ~
 
         * Click on Receive, then Slatepack address.
 
-        ![niffler receive step1](images/niffler-receive.png){ width=400 loading="lazy" }
+        ![thestral receive step1](images/thestral-receive.png){ width=400 loading="lazy" }
 
         * Copy your address (`mugle1...`) and provide it to the other party.
 
@@ -95,11 +95,11 @@ GUI wallet and node using the Rust implementation as back-end &emsp;~Windows,~ ~
 
         * The sender will provide you a Slatepack message. Click again on Receive, then on Create response slatepack. Paste it into the Slatepack box and click Create response slatepack.
 
-        ![niffler receive step1](images/niffler-receive2.png){ width=400 loading="lazy" }
+        ![thestral receive step1](images/thestral-receive2.png){ width=400 loading="lazy" }
 
         * Copy the new Slatepack message your wallet generates.
 
-        ![niffler receive step1](images/niffler-slatepack.png){ width=400 loading="lazy" }
+        ![thestral receive step1](images/thestral-slatepack.png){ width=400 loading="lazy" }
 
         * Provide it to the sender.
 
@@ -110,19 +110,19 @@ GUI wallet and node using the Rust implementation as back-end &emsp;~Windows,~ ~
 
         * Click on Send, then Create slatepack.
 
-        ![niffler send step1](images/niffler-send.png){ width=400 loading="lazy" }
+        ![thestral send step1](images/thestral-send.png){ width=400 loading="lazy" }
 
         * Enter the address and amount, then Create slatepack.
 
-        ![niffler send step2](images/niffler-send2.png){ width=400 loading="lazy" }
+        ![thestral send step2](images/thestral-send2.png){ width=400 loading="lazy" }
 
         * Copy the Slatepack message your wallet generates and provide it to the receiver (however you want).
 
-        ![niffler send step3](images/niffler-slatepack.png){ width=400 loading="lazy" }
+        ![thestral send step3](images/thestral-slatepack.png){ width=400 loading="lazy" }
 
         * You should get a Slatepack message back from the receiver. </br> Click on Send, then on Finalize.
 
-        ![niffler send step4](images/niffler-send4.png){ width=400 loading="lazy" }
+        ![thestral send step4](images/thestral-send4.png){ width=400 loading="lazy" }
 
         * Paste the Slatepack message into the box and confirm.
 

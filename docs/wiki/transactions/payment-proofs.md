@@ -4,8 +4,8 @@
     - Title: payment-proofs
     - Authors: [David Burkett](mailto:davidburkett38@gmail.com)
     - Start date: Nov 05 2019
-    - RFC PR: [mimblewimble/mugle-rfcs#31](https://github.com/mugleproject/mugle-rfcs/pull/31)
-    - Tracking issue: [mimblewimble/mugle-wallet#230](https://github.com/mugleproject/mugle-wallet/issues/230)
+    - RFC PR: [mugleproject/mugle-rfcs#31](https://github.com/mugleproject/mugle-rfcs/pull/31)
+    - Tracking issue: [mugleproject/mugle-wallet#230](https://github.com/mugleproject/mugle-wallet/issues/230)
 
 ## Summary
 

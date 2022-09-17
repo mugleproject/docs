@@ -4,8 +4,8 @@
     - Title: `slatepack`
     - Authors: [joltz](mailto:joltz@protonmail.com)
     - Start date: May 07 2020
-    - RFC PR: [mimblewimble/mugle-rfcs#55](https://github.com/mugleproject/mugle-rfcs/pull/55)
-    - Tracking issue: [mimblewimble/mugle-wallet#406](https://github.com/mugleproject/mugle-wallet/issues/406)
+    - RFC PR: [mugleproject/mugle-rfcs#55](https://github.com/mugleproject/mugle-rfcs/pull/55)
+    - Tracking issue: [mugleproject/mugle-wallet#406](https://github.com/mugleproject/mugle-wallet/issues/406)
 
 
 ## Summary

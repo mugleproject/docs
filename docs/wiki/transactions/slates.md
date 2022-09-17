@@ -4,8 +4,8 @@
     - Title: `slate-v4 (compact slates)`
     - Authors: [Michael Cordner](mailto:yeastplume@protonmail.com)
     - Start date: April 03 2020
-    - RFC PR: [mimblewimble/mugle-rfcs#49](https://github.com/mugleproject/mugle-rfcs/pull/49)
-    - Tracking issue: [mimblewimble/mugle-wallet#317](https://github.com/mugleproject/mugle-wallet/issues/317)
+    - RFC PR: [mugleproject/mugle-rfcs#49](https://github.com/mugleproject/mugle-rfcs/pull/49)
+    - Tracking issue: [mugleproject/mugle-wallet#317](https://github.com/mugleproject/mugle-wallet/issues/317)
 
 ## Summary
 

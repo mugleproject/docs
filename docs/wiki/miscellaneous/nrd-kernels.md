@@ -4,8 +4,8 @@
     - Title: `nrd-kernels`
     - Authors: [Antioch Peverell](mailto:apeverell@protonmail.com)
     - Start date: Mar 24, 2020
-    - RFC PR: [mimblewimble/mugle-rfcs#47](https://github.com/mugleproject/mugle-rfcs/pull/47)
-    - Tracking issue: [mimblewimble/mugle#3288](https://github.com/mugleproject/mugle/issues/3288)
+    - RFC PR: [mugleproject/mugle-rfcs#47](https://github.com/mugleproject/mugle-rfcs/pull/47)
+    - Tracking issue: [mugleproject/mugle#3288](https://github.com/mugleproject/mugle/issues/3288)
 
 ## Summary
 [summary]: #summary

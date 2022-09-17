@@ -4,8 +4,8 @@
     - Title: `security-team`
     - Authors: [joltz](mailto:joltz@protonmail.com)
     - Start date: Jan 22 2020
-    - RFC PR: [mimblewimble/mugle-rfcs#39](https://github.com/mugleproject/mugle-rfcs/pull/39)
-    - Tracking issue: [mimblewimble/mugle-pm/#258](https://github.com/mugleproject/mugle-pm/issues/258)
+    - RFC PR: [mugleproject/mugle-rfcs#39](https://github.com/mugleproject/mugle-rfcs/pull/39)
+    - Tracking issue: [mugleproject/mugle-pm/#258](https://github.com/mugleproject/mugle-pm/issues/258)
 
 ## Summary
 

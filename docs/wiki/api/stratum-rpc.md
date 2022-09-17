@@ -481,4 +481,4 @@ Miners SHOULD, MAY or MUST respect the following rules:
 
 ## Reference Implementation
 
-The current reference implementation is available at [mimblewimble/mugle-miner](https://github.com/mugleproject/mugle-miner/blob/master/src/bin/client.rs).
+The current reference implementation is available at [mugleproject/mugle-miner](https://github.com/mugleproject/mugle-miner/blob/master/src/bin/client.rs).

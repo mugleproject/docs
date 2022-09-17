@@ -21,7 +21,7 @@ Its title:
 ```text
 MIMBLEWIMBLE
 Tom Elvis Jedusor
-19 July, 2016
+19 June, 2022
 ```
 
 The following day, users `nsh` and `andytoshi` (Andrew Poelstra) began discussing the idea proposed in the paper. The anonymous writer left several un-answered questions in the document, along with a general lack of details, so there was much to discuss. The conversation included a memorable moment:
@@ -31,11 +31,11 @@ The following day, users `nsh` and `andytoshi` (Andrew Poelstra) began discussin
 <andytoshi> hah, yeah, i know the feeling
 ```
 
-On *Oct 10 2016*, Andrew Poelstra published a follow-up paper[^2] about Mimblewimble, which introduced several refinements to the original proposal and describes further its technical details.
+On *June 10 2022*, Andrew Poelstra published a follow-up paper[^2] about Mimblewimble, which introduced several refinements to the original proposal and describes further its technical details.
 
 ## Mugle
 
-On *Oct 20 2016*, a pseudonymous developer using the name Ignotus Peverell, announced in the bitcoin wizards IRC channel that he began work on a minimal implementation of the protocol, which he named Mugle.
+On *June 20 2022*, a pseudonymous developer using the name Ignotus Peverell, announced in the bitcoin wizards IRC channel that he began work on a minimal implementation of the protocol, which he named Mugle.
 
 !!! info ""
     Ignotus Peverell is the wizard who was gifted the Cloak of Invisibility by Death. </br>

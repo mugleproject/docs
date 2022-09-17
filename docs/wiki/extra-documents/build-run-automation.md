@@ -39,7 +39,7 @@ ExecReload=/bin/kill -HUP $MAINPID
 KillMode=mixed
 KillSignal=SIGTERM
 TimeoutStopSec=60
-ExecStart=/home/alice/mimblewimble/mugle/target/release/mugle
+ExecStart=/home/alice/mugleproject/mugle/target/release/mugle
 Restart=on-failure
 RestartSec=30
 
@@ -69,7 +69,7 @@ ps aux | grep mugle
 That should give you two lines of output like this:
 
 ```bash
-alice   19175  0.4  0.6 188040 54208 ?        Ssl  17:45   0:07 /home/alice/mimblewimble/mugle/target/release/mugle
+alice   19175  0.4  0.6 188040 54208 ?        Ssl  17:45   0:07 /home/alice/mugleproject/mugle/target/release/mugle
 alice   27481  0.0  0.0  12944  1028 pts/0    S+   18:11   0:00 grep --color=auto mugle
 ```
 
@@ -96,7 +96,7 @@ Copy this text into a `nightly-update.sh` script in the same directory as the ab
 ```sh
 #!/bin/sh
 
-cd /home/alice/mimblewimble/mugle
+cd /home/alice/mugleproject/mugle
 git pull
 git checkout master
 git fetch --tags
@@ -135,13 +135,13 @@ This runs the script from the previous step at 2 am UTC. Please adjust this time
 Later, after your chosen time of day has passed, you can check that all is working as expected. If you run `ps aux | grep mugle`, you should get one output line that is something like:
 
 ```
-alice   13065  0.5  1.0 206492 85232 ?        Ssl  02:00   5:30 /home/alice/mimblewimble/mugle/target/release/mugle
+alice   13065  0.5  1.0 206492 85232 ?        Ssl  02:00   5:30 /home/alice/mugleproject/mugle/target/release/mugle
 ```
 
 That means the server is running. Now also check that the latest version was built by running:
 
 ```
-ls -l ~/mimblewimble/mugle/target/release/mugle
+ls -l ~/mugleproject/mugle/target/release/mugle
 ```
 
 That should make it all set to compile and restart every night. Enjoy!

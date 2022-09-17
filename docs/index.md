@@ -32,6 +32,6 @@ A formal study of its security was [published](https://eprint.iacr.org/2018/1039
 
 </br>
 <center>
-ツ
+☍
 </center>
 </br>

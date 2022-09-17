@@ -9,7 +9,7 @@ main_site_url: https://mugle.org
 main_site_name: Mugle
 
 # Repository
-repo_name: mimblewimble/mugle
+repo_name: mugleproject/mugle
 repo_url: https://github.com/mugleproject/mugle
 edit_uri: https://github.com/mugleproject/docs/blob/master/docs
 
